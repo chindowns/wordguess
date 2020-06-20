@@ -22,11 +22,11 @@ let letters = "qwertyuiopasdfghjklzxcvbnm"
 function createDisplay(str) {
     let displayString = ""
     for (let i = 0; i < str.length; i++) {
-        if (word[i] === " ") {
+        if (str[i] === " ") {
             displayString += "&nbsp;"
         }
-        else if (correctGuesses.includes(word[i])) {
-            displayString += word[i]
+        else if (correctGuesses.includes(str[i])) {
+            displayString += str[i]
         }
         else {
             displayString += "_"
@@ -37,13 +37,14 @@ function createDisplay(str) {
         return displayString
     }
     else {
-        winGame()
+        solutionDom.innerHTML = word
+        count = 11;
+        wrongGuesses = []
+        correctGuesses = []
+        totalGuesses = []
+        word = words[Math.floor(Math.random() * words.length)]
+        return createDisplay(word)
     }
-
-
-}
-
-
 
 document.onkeyup = (event) => {
     let letter = event.key.toLowerCase()
