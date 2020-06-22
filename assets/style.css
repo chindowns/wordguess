@@ -53,13 +53,13 @@ h3.head {
 .game-container {
     position: relative;
     text-align: center;
-    margin: 15% auto;
+    margin: 25% auto;
 }
 
 .result {
     position: relative;
     text-align: center;
-    margin: 5% auto;
+    margin: auto;
     font-size: 50px;
     font-weight: 700;
     text-align: center;
