@@ -20,7 +20,7 @@ let letters = "qwertyuiopasdfghjklzxcvbnm"
 
 
 function createDisplay(str) {
-    let displayString = ""
+    let displayString = "";
     for (let i = 0; i < str.length; i++) {
         if (str[i] === " ") {
             displayString += "&nbsp;"
@@ -45,6 +45,7 @@ function createDisplay(str) {
         word = words[Math.floor(Math.random() * words.length)]
         return createDisplay(word)
     }
+}
 
 document.onkeyup = (event) => {
     let letter = event.key.toLowerCase()
@@ -85,7 +86,7 @@ function winGame(newWord) {
 }
 
 function loseGame() {
-    resultDom.innerHTML = `<h2> You lose! <h2>`
+    resultDom.innerHTML = `<h2> You lose! <h2>`;
     countDom.innerHTML = 0
 
 }
@@ -108,11 +109,3 @@ startDom.onclick = (event) => {
 }
 
 resetGame()
-
-
-
-
-
-
-
-

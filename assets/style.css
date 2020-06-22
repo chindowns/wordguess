@@ -1,0 +1,73 @@
+body {
+    background-image: url(../assets/images/space-1280.jpg);
+    color: white;
+        font-family: 'Monda', sans-serif;
+
+}
+
+container {
+    text-align: center;
+    max-width: 600px;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: aliceblue;
+
+    color: #FFF;
+    font-size: 60px;
+    line-height:1em;
+    margin: 0;
+    position: absolute;
+    top: 5%;
+    text-shadow: 
+      0 -2px 0 #fff, 
+      0 1px 0 #2e2e2e, 
+      0 2px 0 #2c2c2c, 
+      0 3px 0 #2a2a2a, 
+      0 4px 0 #282828, 
+      0 5px 0 #262626, 
+      0 6px 0 #242424, 
+      0 7px 0 #222, 
+      0 8px 0 #202020, 
+      0 9px 0 #1e1e1e, 
+      0 10px 0 #1c1c1c, 
+      0 11px 0 #1a1a1a, 
+      0 12px 0 #181818, 
+      0 13px 0 #161616, 
+      0 14px 0 #141414, 
+      0 15px 0 #121212, 
+      0 22px 30px rgba(71, 71, 71, 0.9);;
+    width: 100%;
+}
+
+h3.head {
+    position: absolute;
+    top: 8%;
+    text-align: center;
+    width: 100%;
+    font-size: 40px;
+    font-family: 'Monda', sans-serif;
+}
+
+#game {
+    position: relative;
+    text-align: center;
+    margin: 25% auto;
+}
+
+#guesses{
+    font-family: 'Architects Daughter', cursive;
+    color: red;
+    font-size: 30px;
+    text-align: center;
+}
+
+.word{
+    font-family: 'Architects Daughter', cursive;
+    color: white;
+    font-size: 30px;
+        text-align: center;
+
+}
+

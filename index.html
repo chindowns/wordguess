@@ -4,13 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Monda:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/style.css">
     <title>Sci Fi Game</title>
 </head>
 
 <body>
-    <h1> Sci Fi Man </h1>
-    <h3> Guess our random word </h3>
+    <container>
+    <h1 class="deepshadow"> Sci-Fi</h1>
+    <h3 class="head"> Word Guess</h3>
+    
     <button id="start"> Reset </button>
     <div>
         <div id="result">
@@ -20,13 +25,14 @@
 
         <div id="game">
             <div>
-                <h3>Word: <span id="word"></span></h3>
+                <h3 class="word">Word: <span id="word"></span></h3>
                 <h3>Remaining Guesses: <span id="count"> </span></h3>
                 <h3>Letters Guessed: <span id="guesses"> </span></h3>
             </div>
         </div>
     </div>
-    <script src="script.js"></script>
+    </container>
+    <script src="assets/script.js"></script>
 
 </body>
 
