@@ -50,10 +50,26 @@ h3.head {
     font-family: 'Monda', sans-serif;
 }
 
+.game-container {
+    position: relative;
+    text-align: center;
+    margin: 15% auto;
+}
+
+.result {
+    position: relative;
+    text-align: center;
+    margin: 5% auto;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    color: greenyellow;
+}
+
 #game {
     position: relative;
     text-align: center;
-    margin: 25% auto;
+    margin: auto;
 }
 
 #guesses{
@@ -67,7 +83,10 @@ h3.head {
     font-family: 'Architects Daughter', cursive;
     color: white;
     font-size: 30px;
-        text-align: center;
+    text-align: center;
+}
+#word{
+    letter-spacing: 0.75em;
 
 }
 
