@@ -4,7 +4,7 @@ https://chindowns.github.io/wordguess
 This is a fun wordguess game based on Sci-Fi.  Using HTML5, CSS, and Javascript the game allows the user to make 11 guesses before they lose and the game starts over.
 
 ## Site Image
-![site](public/assets/images/screenshots/applications-tracked.jpg)
+![site](assets/images/Screenshot.png)
 
 ## Table of Contents
 
