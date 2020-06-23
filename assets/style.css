@@ -1,6 +1,6 @@
 body {
     background-image: url(../assets/images/space-1280.jpg);
-    background-position: 50%;
+    background-position: 50% 0%;
     color: white;
     font-family: 'Monda', sans-serif;
 }
@@ -15,9 +15,8 @@ h1 {
 
     color: #FFF;
     font-size: 60px;
-    line-height:1em;
+    line-height:.5em;
     margin: 1em 0;
-    padding: 1em 0;
     position: relative;
     top: 5%;
     text-shadow: 
@@ -42,7 +41,7 @@ h1 {
 }
 
 h3.head {
-    position: absolute;
+    position: relative;
     top: 8%;
     text-align: center;
     width: 100%;

@@ -34,9 +34,12 @@ function createDisplay(str) {
             displayString += "_"
         }
         // displayString += "&nbsp;"
+        console.log(`Iteration:  ${i}`);
     }
+
+    // checks if display string still has an _ and continues if so.
     if (displayString.includes("_")) {
-        return displayString
+        return displayString;
     }
     else {
         solutionDom.innerHTML = word
