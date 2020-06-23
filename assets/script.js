@@ -11,10 +11,11 @@ let startDom = document.getElementById("start")
 const words = ["han solo", "jedi", "yoda", "droid", "leia", "death star", "darth vader", "the force", "lightsaber", "storm trooper", "empire", "rebel alliance", "padawan", "jedi master", "millenium falcon", "mace windu", "obi-wan kenobi"]
 
 let word;
-let count;
-let wrongGuesses = []
-let correctGuesses = []
-let totalGuesses = []
+let guesses = 11;
+let count = guesses;
+let wrongGuesses = [];
+let correctGuesses = [];
+let totalGuesses = [];
 
 let letters = "qwertyuiopasdfghjklzxcvbnm"
 
@@ -42,8 +43,7 @@ function createDisplay(str) {
         return displayString;
     }
     else {
-        solutionDom.innerHTML = word
-        count = 11;
+        solutionDom.innerHTML = `You Got It!<br />${word}`
         wrongGuesses = []
         correctGuesses = []
         totalGuesses = []
@@ -84,21 +84,14 @@ function displayGuesses(wrongGuesses) {
 
 }
 
-function winGame(newWord) {
-    solutionDom.innerHTML = `<h2>You Got It! <br /> ${word}`
-    resetGame()
-
-}
-
 function loseGame() {
-    resultDom.innerHTML = `<h2> You lose! <h2>`;
+    solutionDom.innerHTML = `You lose!`;
     countDom.innerHTML = 0
 
 }
 
 function resetGame() {
     word = words[Math.floor(Math.random() * words.length)]
-    count = 11;
     wrongGuesses = []
     correctGuesses = []
     totalGuesses = []
