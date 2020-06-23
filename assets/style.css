@@ -1,13 +1,12 @@
 body {
     background-image: url(../assets/images/space-1280.jpg);
+    background-position: 50%;
     color: white;
-        font-family: 'Monda', sans-serif;
-
+    font-family: 'Monda', sans-serif;
 }
 
 container {
     text-align: center;
-    max-width: 600px;
 }
 
 h1 {
@@ -17,8 +16,9 @@ h1 {
     color: #FFF;
     font-size: 60px;
     line-height:1em;
-    margin: 0;
-    position: absolute;
+    margin: 1em 0;
+    padding: 1em 0;
+    position: relative;
     top: 5%;
     text-shadow: 
       0 -2px 0 #fff, 
